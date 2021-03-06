@@ -1,3 +1,11 @@
 #gragh-wrapper {
   background-color: aqua;
+  height: 80vh;
+}
+
+#add-icon {
+  position: fixed;
+  bottom: 3vh; 
+  right: 0vw;
+  padding: 0vh 2vw;
 }
