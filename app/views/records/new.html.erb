@@ -1,0 +1,9 @@
+<%= form_with url:  records_path, id: "form-area", method: :post, local: true do |f| %> 
+    <%= f.date_field :date, class: "date-input", required: true, value: Time.now.strftime("%Y-%m-%d")%>
+    <%= f.number_field :time, placeholder: "※必須 何分サボった？ 半角数字で記入(0分以上1440分以下)" %>
+    <%= f.text_area :skip, placeholder: "何してた？ 1000文字以内" %>
+    <%= f.text_area :to_do, placeholder: "何すべきだった？ 1000文字以内" %>
+
+    <%= f.submit 'SAVE' %>
+  </div>
+<% end %>
