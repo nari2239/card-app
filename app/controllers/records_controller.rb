@@ -1,5 +1,6 @@
 class RecordsController < ApplicationController
   def index
+    @record = Record.first
   end
 
   def new
