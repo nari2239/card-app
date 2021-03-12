@@ -9,3 +9,10 @@
   right: 0vw;
   padding: 0vh 2vw;
 }
+
+#card-wrapper {
+  background-color: azure;
+  height: 40vh;
+  display: flex;
+  justify-content: space-around;
+}
