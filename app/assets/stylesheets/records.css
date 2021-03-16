@@ -1,6 +1,7 @@
 #gragh-wrapper {
   background-color: aqua;
   height: 100vh;
+  overflow: scroll;
 }
 
 #add-icon {
