@@ -11,6 +11,11 @@
   padding: 0vh 2vw;
 }
 
+#add-icon:hover {
+  opacity: 0.7;
+  cursor: default;
+}
+
 #card-wrapper {
   background-color: azure;
   height: 40vh;
