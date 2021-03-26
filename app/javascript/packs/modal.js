@@ -1,11 +1,11 @@
 $(function() {
 	setInterval(function(){
 		$('#add-icon').click(function() {
-			$('#xampleModalCenter').fadeIn();
+			$('#exampleModalCenter').fadeIn();
 		});
 
-		$('.btn-primary').click(function() {
-			$('#xampleModalCenter').fadeOut();
+		$('#close-btn').click(function() {
+			$('#exampleModalCenter').fadeOut();
 		});
 	}, 1000);
 
